@@ -1,6 +1,5 @@
 # Use an official Node.js runtime as the base image
 FROM --platform=$BUILDPLATFORM node:20-alpine as build
-LABEL org.opencontainers.image.source="https://github.com/"${IMAGE_NAME}
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
